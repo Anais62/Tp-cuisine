@@ -1,0 +1,529 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Kalam', cursive;
+}
+
+/* ##### All page ##### */
+
+.center-text{
+    text-align: center;
+}
+
+/* ##### Page header.php ##### */
+
+/* Pour changer le fond du header en noir */
+
+header.d-flex.flex-wrap.align-items-center.justify-content-md-between.py-3.mb-4 {
+    background-color: #7B1F30;
+}
+
+form.disconnect.bg-burgundy {
+    background-color: #7B1F30;
+}
+
+.bg-burgundy {
+    background-color: #7B1F30;
+}
+
+/* Pour changer la couleur du texte du header */
+
+.nav-link{
+    color: white;
+}
+
+/* Pour changer la couleur hover sur le header */
+
+.nav-link:focus, .nav-link:hover {
+    color: #45a049;
+    }
+
+/* Bouton connexion */
+
+.btn-outline-primary {
+    --bs-btn-color: white;
+    --bs-btn-border-color: #4caf50;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4caf50;
+    --bs-btn-hover-border-color: #4caf50;
+    --bs-btn-focus-shadow-rgb: 13,110,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #45a049;
+    --bs-btn-active-border-color: #45a049;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #0d6efd;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #0d6efd;
+    --bs-gradient: none;
+}
+
+/* Bouton Inscription */
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: orange;
+    --bs-btn-border-color: orange;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(224, 134, 15);
+    --bs-btn-hover-border-color: rgb(224, 134, 15);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(224, 134, 15);
+    --bs-btn-active-border-color: rgb(224, 134, 15);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+a:visited{
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Pour le bouton se déconnecter quand l'utilisateur est co */
+
+form.disconnect {
+    margin: 0;
+    background-color: #333;
+    box-shadow: none;
+}
+
+/* ########################### */
+/* ##### Page footer.php ##### */
+
+.footer{
+    margin-top: 14rem;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .nav-link:hover {
+    color: #4caf50 !important; 
+}
+
+/* ############################ */
+/* ##### Page accueil.php ##### */
+
+.trend {
+    color: #333;
+    max-width: 23rem;
+    margin: 3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+img{
+    width: auto;
+    height: 500px;
+    border-radius: 7%;
+    
+    
+}
+
+#carouselExampleCaptions {
+    max-width: 800px;
+    width: 100%;
+    margin: auto; 
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fondgris.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    background-attachment: fixed;
+    min-height: 100vh;
+    
+}
+
+.latestaddition h1 a:hover {
+    color:green;
+}
+
+.welcome h3{
+    background-color: rgba(172, 179, 75, 0.8); 
+    padding: 40px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    margin: 4rem;
+    color:#252316;
+}
+
+/* ################################################### */
+/* ##### Page pagedeco.php & pageinscription.php ##### */
+
+/* Pour centrer les 2 boutons */
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Centrer tout le formulaire de pageInscription */
+.sign-up{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Espace entre le bouton inscription et entrer de nouveau votre mdp */
+
+.space{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #dee2e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+/* Espace entre le bouton connexion et pas encore inscrit dans le formulaire */
+
+.spcace-button {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Espace entre le bouton pas encore inscrit et footer */
+
+button#noSign {
+    margin-bottom: 1rem;
+    background-color: orange;
+}
+
+button#sign {
+    background-color: orange;
+}
+
+/* */
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 1px solid #251616;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+.form:focus {
+    border-color: #4caf50;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#inscription:hover {
+    background-color: #45a049;
+} 
+
+#dejainscrit {
+    background-color: #2196f3;
+    margin-top: 10px;
+}
+
+#dejainscrit:hover {
+    background-color: #0b7dda;
+}
+
+#formpagedeco {
+    margin-bottom: 15rem;
+}
+.latestaddition {
+    max-width: 600px;
+    margin: 3rem;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 18px;
+}
+.latestaddition a {
+    color: rgb(10, 10, 10);
+}
+
+form.formdisconnection{
+    margin:1rem;
+    padding:0;
+    max-width: 0;
+}
+
+.latestaddition a:hover {
+    color: green;
+}
+
+
+/* ##################################### */
+/* ##### page pagepresentation.php ##### */
+
+.presentation {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin: 4rem;
+}
+
+.presentation h1, .presentation h2, .presentation h3 {
+    color: #333; 
+}
+
+.presentation p, .presentation li {
+    color: #555; 
+}
+
+/* ################################ */
+/* ##### page pagerecette.php ##### */
+
+h1.center-text {
+    color: #333;
+    background-color: #dee2e6;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-container {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; 
+    border-radius: 5px; 
+}
+
+.center-container2 {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; 
+    border-radius: 5px;
+    margin-top: 19rem;
+    margin-bottom: 19rem;; 
+}
+    
+
+/* Espace dans le formulaire */
+
+select#category {
+    margin-bottom: 1rem;
+}
+
+label.instructionRecipe {
+    margin-top: 1rem;
+}
+
+label.instructionCookingTime {
+    margin-top: 1rem;
+}
+
+/* ################################# */
+/* ##### page pagerecette2.php ##### */
+
+/* Espace dans le formulaire */
+
+label.valueMeasure {
+    margin-top: 1rem;
+}
+
+.modal-content{
+    background-color: #7B1F30;
+}
+
+/* ################################# */
+/* ##### page pageadmin.php ##### */
+
+button.delete_recipe {
+    background-color: red;
+}
+
+form.formAdmin {
+    display: flex;
+    justify-content: space-between;
+    max-width: 350px;
+    margin: 50px auto;
+    background-color: #dee2e6;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.style-recipe {
+    color: #333;
+    background-color: #dee2e6;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: max-content;
+    border-radius: 5px;
+}
+
+.recipe-margin {
+    margin-left: 4rem;
+    margin-right: 4rem
+;
+}
+
+/* ################################# */
+/* ##### pagerecette2.php ##### */
+
+/* Bouton supprimer ingredients recette */
+button.red-delete {
+    background-color: rgb(223, 60, 60);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Bouton Ajouter ingredients */
+button#add {
+    background-color: rgb(196, 224, 33);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Pour centrer les trois boutons dans étape ajout ingrédient */
+.button-recipe {
+   text-align: center;
+   margin-bottom: 20px; /* Ajout d'une marge en bas pour séparer les boutons */
+}
+
+/* ################################# */
+/* ##### pagelivrerecette.php ##### */
+
+.recipe-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    margin: 4rem;
+
+}
+
+.recipe-container h2 a:visited {
+    color: rgb(128, 128, 128);
+}
+
+.recipe-container h2 a.recipe {
+    color: rgb(15, 15, 17); /* Couleur initiale du lien */
+}
+
+.recipe-container a {
+    color: rgb(10, 10, 10);
+}
+
+.recipe-container h2 a:hover {
+    color:rgb(33, 129, 33);
+}
+
+.center-text {
+    text-align: center;
+}
+
+.book{
+    background-color: rgba(67, 99, 72, 0.9);
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); 
+    margin: 4rem;
+    text-align: center;
+    color: white;
+}
+
+/* ###################### */
+/* ##### Responsive ##### */
+
+/* ##### Header ##### */
+
+@media screen and (max-width: 768px) {
+    .d-flex {
+        display: flex!important;
+        flex-direction: column;        
+    }
+
+    .col-md-3.text-end {
+        display: flex;
+    }
+
+/* ##### Page accueil ##### */
+
+    #carouselExampleCaptions {
+        max-width: 660px;
+    }
+
+
+    
+}
+
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: rgb(3, 7, 3);
+}
+.dropdown-menu a:hover {
+    color:rgb(33, 129, 33);
+}
+
+
+
+/*##### Test new header ##### */
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #7B1F30!important;
+}
+
+ul.navbar-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .disconnect {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    .navbar-expand-lg .navbar-collapse {
+        display: flex !important;
+        flex-basis: 90rem;
+    }
+}
+
+/* ######################### */
